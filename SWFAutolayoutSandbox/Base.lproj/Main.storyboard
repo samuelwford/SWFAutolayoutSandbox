@@ -47,13 +47,14 @@
                                     <constraint firstAttribute="height" constant="50" id="Cz2-Ut-8zr"/>
                                 </constraints>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="The orange views are spacers and not meant to be visible. They are shown and colored for illustration purposes." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yn-ye-OhB">
-                                <rect key="frame" x="20" y="72" width="728" height="75"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yn-ye-OhB">
+                                <rect key="frame" x="20" y="72" width="728" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="U7Q-Zg-8Sh"/>
+                                    <constraint firstAttribute="height" constant="100" id="U7Q-Zg-8Sh"/>
                                 </constraints>
+                                <string key="text">The orange views are spacers and not meant to be visible. They are shown and colored for illustration purposes. They are constrained to have the same width and the left one has width &lt;= 1000 constraint that's lower priority than the others, thus pushing the views in between to the middle.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
