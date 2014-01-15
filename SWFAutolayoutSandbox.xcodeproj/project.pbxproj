@@ -14,7 +14,6 @@
 		4EE625EA1886D96B00FB0C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE625E91886D96B00FB0C99 /* main.m */; };
 		4EE625EE1886D96B00FB0C99 /* SWFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE625ED1886D96B00FB0C99 /* SWFAppDelegate.m */; };
 		4EE625F11886D96B00FB0C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE625EF1886D96B00FB0C99 /* Main.storyboard */; };
-		4EE625F41886D96B00FB0C99 /* SWFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE625F31886D96B00FB0C99 /* SWFViewController.m */; };
 		4EE625F61886D96B00FB0C99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE625F51886D96B00FB0C99 /* Images.xcassets */; };
 		4EE625FD1886D96B00FB0C99 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE625FC1886D96B00FB0C99 /* XCTest.framework */; };
 		4EE625FE1886D96B00FB0C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE625DD1886D96B00FB0C99 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		4EE625EC1886D96B00FB0C99 /* SWFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWFAppDelegate.h; sourceTree = "<group>"; };
 		4EE625ED1886D96B00FB0C99 /* SWFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWFAppDelegate.m; sourceTree = "<group>"; };
 		4EE625F01886D96B00FB0C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EE625F21886D96B00FB0C99 /* SWFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWFViewController.h; sourceTree = "<group>"; };
-		4EE625F31886D96B00FB0C99 /* SWFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWFViewController.m; sourceTree = "<group>"; };
 		4EE625F51886D96B00FB0C99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4EE625FB1886D96B00FB0C99 /* SWFAutolayoutSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWFAutolayoutSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE625FC1886D96B00FB0C99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				4EE625EC1886D96B00FB0C99 /* SWFAppDelegate.h */,
 				4EE625ED1886D96B00FB0C99 /* SWFAppDelegate.m */,
 				4EE625EF1886D96B00FB0C99 /* Main.storyboard */,
-				4EE625F21886D96B00FB0C99 /* SWFViewController.h */,
-				4EE625F31886D96B00FB0C99 /* SWFViewController.m */,
 				4EE625F51886D96B00FB0C99 /* Images.xcassets */,
 				4EE625E41886D96B00FB0C99 /* Supporting Files */,
 			);
@@ -251,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE625EA1886D96B00FB0C99 /* main.m in Sources */,
-				4EE625F41886D96B00FB0C99 /* SWFViewController.m in Sources */,
 				4EE625EE1886D96B00FB0C99 /* SWFAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
