@@ -82,7 +82,79 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="977" y="-186"/>
+            <point key="canvasLocation" x="977" y="-762"/>
+        </scene>
+        <!--View Controller - Stacked Views in Container, Centered in Outter Container-->
+        <scene sceneID="Tcp-A9-tNr">
+            <objects>
+                <viewController id="V7t-dG-on7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7QG-or-AXt"/>
+                        <viewControllerLayoutGuide type="bottom" id="yFk-bl-VG3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bWH-Dt-HN5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="Ujp-NM-mXh" userLabel="Container">
+                                <rect key="frame" x="164" y="288" width="440" height="448"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="Nrk-9s-0ja" userLabel="Blue">
+                                        <rect key="frame" x="20" y="20" width="400" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="3Cy-vM-zKM"/>
+                                            <constraint firstAttribute="width" constant="400" id="oWB-H9-ORH"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="27W-6W-zdg" userLabel="Purple">
+                                        <rect key="frame" x="20" y="228" width="400" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Nrk-9s-0ja" firstAttribute="width" secondItem="27W-6W-zdg" secondAttribute="width" id="6fu-X8-Grg"/>
+                                    <constraint firstAttribute="bottom" secondItem="27W-6W-zdg" secondAttribute="bottom" constant="20" symbolic="YES" id="7dm-vi-qaR"/>
+                                    <constraint firstItem="Nrk-9s-0ja" firstAttribute="height" secondItem="27W-6W-zdg" secondAttribute="height" id="DfK-j6-EeA"/>
+                                    <constraint firstItem="27W-6W-zdg" firstAttribute="top" secondItem="Nrk-9s-0ja" secondAttribute="bottom" constant="8" symbolic="YES" id="F2w-2Z-Uff"/>
+                                    <constraint firstItem="Nrk-9s-0ja" firstAttribute="centerX" secondItem="27W-6W-zdg" secondAttribute="centerX" id="Igt-eB-7U6"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nrk-9s-0ja" secondAttribute="trailing" constant="20" symbolic="YES" id="Z8c-Tr-7jZ"/>
+                                    <constraint firstItem="Nrk-9s-0ja" firstAttribute="top" secondItem="Ujp-NM-mXh" secondAttribute="top" constant="20" symbolic="YES" id="gge-Oi-AHc"/>
+                                    <constraint firstItem="Nrk-9s-0ja" firstAttribute="leading" secondItem="Ujp-NM-mXh" secondAttribute="leading" constant="20" symbolic="YES" id="l0Q-l4-STt"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RlH-uz-AaZ">
+                                <rect key="frame" x="20" y="72" width="728" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="TNq-ik-kse"/>
+                                </constraints>
+                                <string key="text">The blue and purple views have an intrinsic size and are constrained to each other (standard vertical spacing, equal size, and aligned horizontally). They are constrained to their container view in orange (with a little extra spacing just to make their placement visible) which is centered in it's container view.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RlH-uz-AaZ" secondAttribute="trailing" constant="20" symbolic="YES" id="A0P-E0-xu3"/>
+                            <constraint firstAttribute="centerY" secondItem="Ujp-NM-mXh" secondAttribute="centerY" id="E4S-pf-fSQ"/>
+                            <constraint firstAttribute="centerX" secondItem="Ujp-NM-mXh" secondAttribute="centerX" id="JWP-t5-Cgf"/>
+                            <constraint firstAttribute="centerX" secondItem="Ujp-NM-mXh" secondAttribute="centerX" id="LCv-4M-hI2"/>
+                            <constraint firstItem="RlH-uz-AaZ" firstAttribute="leading" secondItem="bWH-Dt-HN5" secondAttribute="leading" constant="20" symbolic="YES" id="WQD-j5-0Dl"/>
+                            <constraint firstAttribute="centerY" secondItem="Ujp-NM-mXh" secondAttribute="centerY" id="bWG-oe-djk"/>
+                            <constraint firstItem="RlH-uz-AaZ" firstAttribute="top" secondItem="7QG-or-AXt" secondAttribute="bottom" constant="20" symbolic="YES" id="uYo-eb-n1P"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stacked Views in Container, Centered in Outter Container" id="mBI-A3-1tF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gL4-zF-m67" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="443"/>
         </scene>
         <!--Table View Controller - AutoLayout Scenarios-->
         <scene sceneID="4lT-DG-n6B">
@@ -113,6 +185,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="push" id="och-Kp-LcU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Imi-Oy-Y0M" style="IBUITableViewCellStyleDefault" id="vVm-4n-8Yh">
+                                        <rect key="frame" x="0.0" y="108" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vVm-4n-8Yh" id="oAf-RM-DBi">
+                                            <rect key="frame" x="0.0" y="0.0" width="735" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Stacked Views in a Container, Centered in Outter Container" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Imi-Oy-Y0M">
+                                                    <rect key="frame" x="15" y="0.0" width="718" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="V7t-dG-on7" kind="push" id="XSf-kD-Dev"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
