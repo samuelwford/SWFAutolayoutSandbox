@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		32A1A6151894566B00717250 /* SWFProportionalLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1A6141894566B00717250 /* SWFProportionalLayoutViewController.m */; };
+		32A1A6171895503600717250 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32A1A6161895503600717250 /* README.md */; };
 		4EE625DE1886D96B00FB0C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE625DD1886D96B00FB0C99 /* Foundation.framework */; };
 		4EE625E01886D96B00FB0C99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE625DF1886D96B00FB0C99 /* CoreGraphics.framework */; };
 		4EE625E21886D96B00FB0C99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE625E11886D96B00FB0C99 /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		32A1A6131894566B00717250 /* SWFProportionalLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFProportionalLayoutViewController.h; sourceTree = "<group>"; };
 		32A1A6141894566B00717250 /* SWFProportionalLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWFProportionalLayoutViewController.m; sourceTree = "<group>"; };
+		32A1A6161895503600717250 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4EE625DA1886D96B00FB0C99 /* SWFAutolayoutSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWFAutolayoutSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE625DD1886D96B00FB0C99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4EE625DF1886D96B00FB0C99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +84,7 @@
 		4EE625D11886D96B00FB0C99 = {
 			isa = PBXGroup;
 			children = (
+				32A1A6161895503600717250 /* README.md */,
 				4EE625E31886D96B00FB0C99 /* SWFAutolayoutSandbox */,
 				4EE626021886D96B00FB0C99 /* SWFAutolayoutSandboxTests */,
 				4EE625DC1886D96B00FB0C99 /* Frameworks */,
@@ -231,6 +234,7 @@
 			files = (
 				4EE625F61886D96B00FB0C99 /* Images.xcassets in Resources */,
 				4EE625E81886D96B00FB0C99 /* InfoPlist.strings in Resources */,
+				32A1A6171895503600717250 /* README.md in Resources */,
 				4EE625F11886D96B00FB0C99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
